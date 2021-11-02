@@ -10,7 +10,6 @@ def ekstraksi_data():
     hasil['magnitudo'] = 4.1
     hasil['kedalaman'] = '70 KM'
 
-
     return hasil
 
 
@@ -19,6 +18,7 @@ def tampilkan_data(result):
     print(f"Tanggal {result['tanggal']}")
     print(f"Waktu {result['waktu']}")
     print(f"Magnitudo {result['magnitudo']}")
+    print(f"Kedalaman {result['kedalaman']}")
 
 
 if __name__ == '__main__':
