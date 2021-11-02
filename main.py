@@ -8,6 +8,8 @@ def ekstraksi_data():
     hasil['tanggal'] = '24 Agustus 2021'
     hasil['waktu'] = '12:05:52 WIB'
     hasil['magnitudo'] = 4.1
+    hasil['kedalaman'] = '70 KM'
+
 
     return hasil
 
