@@ -1,1 +1,1 @@
-# python-fundamental-next
+basic-scrapy-python
