@@ -18,7 +18,7 @@ def ekstraksi_data_bolanet():
         print(soup.prettify())
 
 
-ekstraksi_data_bolanet()
+
 
 
 
