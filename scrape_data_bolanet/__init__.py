@@ -11,16 +11,12 @@ def ekstraksi_data_bolanet():
     if content.status_code == 200:
 
         soup = BeautifulSoup(content.text, 'html.parser')
-        scrap = soup.find('div', {'class': 'item'})
-        # scrap = scrap.findChildren('div', {'class': 'text'})
-        # scrap = scrap.findChildren('a', {'class': 'ntitle'})
-        # scrap = scrap.text
-        print(scrap.prettify())
+        title = soup.find_all('a', {'class': 'ntitle'})
+        time = soup.find_all('span', {'class': 'date'})
+
+        for judul in title:
+            print(judul.text)
 
 
-
-
-
-
-
+# ekstraksi_data_bolanet()
 
