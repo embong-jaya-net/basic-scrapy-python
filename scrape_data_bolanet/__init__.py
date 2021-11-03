@@ -22,6 +22,8 @@ def ekstraksi_data_bolanet():
                 print(waktu.text)
         i = i + 1
 
+        print(len(title))
+        print(len(time))
 
 
 ekstraksi_data_bolanet()
