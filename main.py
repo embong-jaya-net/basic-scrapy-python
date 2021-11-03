@@ -11,7 +11,7 @@ if __name__ == '__main__':
     print('1. Srcapping Data Gempa Terkini dari website BMKG')
     print('2. Scrapping Data Berita Liga Champions Terbaru dari Website Bolanet')
     print('3. Coming Soon')
-    menu = input('Pilih salah satu menu:')
+    menu = input('Pilih salah satu menu kemudian tekan enter:')
     if menu == '1':
         print('\n')
         data_gempa = ekstraksi_data_bmkg()
@@ -22,6 +22,8 @@ if __name__ == '__main__':
     elif menu == '3':
         print('\nComing Soon')
     else:
+
+
         print('\nTidak ada di dalam menu')
 
 
