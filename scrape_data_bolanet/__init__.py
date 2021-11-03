@@ -20,7 +20,8 @@ def ekstraksi_data_bolanet():
                 print(judul.text)
             for waktu in time[i]:
                 print(waktu.text)
-        i = 1 + 1
+        i = i + 1
 
 
-# ekstraksi_data_bolanet()
+
+ekstraksi_data_bolanet()
