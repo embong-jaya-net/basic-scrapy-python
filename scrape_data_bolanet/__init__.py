@@ -15,12 +15,12 @@ def ekstraksi_data_bolanet():
         time = soup.find_all('span', {'class': 'date'})
 
         i = 0
-        for i in range(i,len(title)):
+        for i in range(i, len(title)):
             for judul in title[i]:
                 print(judul.text)
             for waktu in time[i]:
                 print(waktu.text)
-        i = 1 +1
+        i = 1 + 1
 
 
 # ekstraksi_data_bolanet()
